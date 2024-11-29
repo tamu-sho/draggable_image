@@ -24,13 +24,13 @@ export default class Renderer {
     this.instance.shadowMap.type = THREE.PCFSoftShadowMap;
     this.instance.setClearColor('#e2e8eb');
     this.instance.setSize(this.sizes.width, this.sizes.height);
-    this.instance.setPixelRatio(this.sizes.pixelRatio);
+    this.instance.setPixelRatio(Math.max(this.sizes.pixelRatio, 2));
   }
 
   // リサイズ処理
   resize() {
     this.instance.setSize(this.sizes.width, this.sizes.height);
-    this.instance.setPixelRatio(this.sizes.pixelRatio);
+    this.instance.setPixelRatio(Math.max(this.sizes.pixelRatio, 2));
   }
 
   // Tick処理
