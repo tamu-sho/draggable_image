@@ -23,8 +23,8 @@ export default class Experience {
     this.cardParams = {
       width: 1.0,
       height: 1.3,
-      row: 4,
-      col: 8, //偶数が良い
+      row: 6,
+      col: 10, //偶数が良い
       gap: 0.125,
     };
 
