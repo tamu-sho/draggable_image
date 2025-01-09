@@ -21,10 +21,10 @@ export default class Experience {
 
     // カード配置のパラメーター
     this.cardParams = {
-      width: 1.0,
-      height: 1.3,
-      row: 6,
-      col: 10, //偶数が良い
+      width: 1.1,
+      height: 1.4,
+      row: 5,
+      col: 12, //偶数が良い
       gap: 0.125,
     };
 
